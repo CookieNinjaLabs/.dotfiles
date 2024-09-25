@@ -9,8 +9,9 @@
 
 ## Location
 
-All files are placed in the ~/.dotfiles/
-And I use [stow]{https://www.gnu.org/software/stow/manual/stow.html} to create all Symlinks
+All files are placed in the ~/.dotfiles/ folder.
+
+And I use [stow](https://www.gnu.org/software/stow/manual/stow.html) to create all Symlinks.
 
 # Dependencies
 
