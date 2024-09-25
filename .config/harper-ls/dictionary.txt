@@ -1,0 +1,14 @@
+lua
+scm
+nvim
+tmux
+ecma
+vscode
+textobj
+keybinds
+Arrowkey
+jumplist
+Bufferline
+Preallocate
+treesitter's
+autocompletion

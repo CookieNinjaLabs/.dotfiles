@@ -1,0 +1,3 @@
+Plug 'jvgrootveld/telescope-zoxide'
+
+require("telescope").extensions.zoxide.list({picker_opts})
