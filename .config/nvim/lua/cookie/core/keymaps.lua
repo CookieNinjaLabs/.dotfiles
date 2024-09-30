@@ -18,7 +18,7 @@ keymap.set('i', 'jk', '<ESC>', { desc = 'Exit insert mode with nk' })
 
 -- NORMAL-Mode
 keymap.set('n', '<leader>nh', ':nohl<CR>', { desc = 'Clear search highlight' })
-keymap.set('n', '<leader>lr', ':LspRestart<CR>', { desc = 'Clear search highlight' })
+keymap.set('n', '<leader>rl', ':LspRestart<CR>', { desc = 'Clear search highlight' })
 
 -- Increment/decrement numbers
 keymap.set('n', '<leader>+', '<C-a>', { desc = 'Increment number' }) -- Increment
