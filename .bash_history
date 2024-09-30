@@ -1376,3 +1376,107 @@ git credential-cache exit
 vim ~/.git-credentials
 git clone https://github.com/nymeria-py/Beziehungsrahmenvereinbarung.git
 git config --global --unset credential.helper
+sudo apt update && sudo apt upgrade -y
+sudo apt search r
+sudo apt search r-base
+sudo apt install r-base
+sudo apt install r-base-dev
+sudo apt install gdebi
+sudo gdebi Downloads/rstudio-2024.09.0-375-amd64.deb 
+cd Documents/
+rm Text\ File.txt 
+lah
+cd ..
+clear
+mkdir .dotfiles
+sudo apt install stow
+lah
+cd .dotfiles/
+mv ~/.bash_history .
+mv ~/.bash_logout .
+mv ~/.bashrc .
+lah
+cd ..
+lah
+cd .dotfiles/
+stow .
+cd ..
+lah
+nvim
+cd .dotfiles/
+mv ~/.config/ .
+stow .
+cd ..
+lah
+cd .dotfiles/.config/
+lah
+mv .gitignore ..
+nvim ../.gitignore 
+mv .git ..
+cd ..
+git gs
+nvim .gitignore 
+git gs
+clear
+rm -r .git
+lah
+rm .git
+rm -r .git
+clear
+git init
+git gs
+git ga
+cd .config/emacs/
+lah
+rm -r .git
+sudo rm -r .git
+git gs
+cd ../..
+git gs
+.git ignore
+.gitignore
+nvim .gitignore
+git gs
+git rm --cached .
+git rm --cached -r .
+git gs
+clear
+git init
+git gs
+git ga
+git gs
+nvim .gitignore 
+git gs
+git init
+git gs
+git add .bash_history .bash_logout .bashrc .gitignore 
+git gs
+git add .config/
+nvim .gitignore 
+git gs
+nvim .gitignore 
+git init
+git gs
+git ga
+git gs
+nvim README.md
+git gs
+git ga
+git commit -m "first commit"
+git remote add origin https://github.com/CookieNinjaLabs/.dotfiles.git
+git push -u origin main
+git gs
+nvim README.md 
+git ga
+git gcm "Update readme"
+git gu
+git gp
+nvim README.md 
+cd ~
+sudo crontab
+oh-my-posh config export > poshconfig.json
+cd .dotfiles/
+mkdir .poshthemes
+nvim
+sudo crontab
+sudo crontab -e
