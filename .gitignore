@@ -11,6 +11,7 @@
 .config/go/**
 .config/gtk-*/*
 .config/ibus/*
+.config/JetBrains/*
 .config/jupyterlab-desktop/*
 .config/kate/*
 .config/kcmfonts*
@@ -19,6 +20,7 @@
 .config/kdeconnect/*
 .config/kdedefaults/*
 .config/keepassxc/*
+.config/kinfocenterrc/*
 .config/ksplashrc*
 .config/libaccounts-glib/*
 .config/libreoffice/*
@@ -63,6 +65,7 @@
 .config/kgammarc
 .config/kglobalshortcutsrc
 .config/khotkeysrc
+.config/kinfocenterrc
 .config/kmixrc
 .config/konsolerc
 .config/konsolesshconfig

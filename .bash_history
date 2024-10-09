@@ -1480,3 +1480,134 @@ mkdir .poshthemes
 nvim
 sudo crontab
 sudo crontab -e
+lscpu | grep Virtualization
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients virt-manager
+sudo adduser $USER kvm
+shutdown -r now
+apt search golang
+clear
+cd HSRW
+cd Documents/HSRW/
+mkdir easyroam
+cd easyroam/
+sh easyroam.sh  easyroam_30_09_2024_10_24_38.p12 
+cd -
+cd /home/kamil/Documents/Cloud/Sciebo/5.Semester-WS24/S3\ -\ Verwaltungs-\ und\ IT-Recht/
+lah
+cd social\ media\ recht/
+lah 
+mkdir ha
+git clone https://github.com/CookieNinjaLabs/HSRW-HA-IT-Recht.git
+git gs
+cd HSRW-HA-IT-Recht/
+git gs
+git ga
+git gcm "init"
+git gu
+git gs
+nvim main.tex 
+nvim
+clear
+nvim
+git gs
+git ga
+git gcm "Nur ein kleiner Test"
+git gu
+cd nvim
+cd ..
+cd ../.dotfiles/
+git gs
+git ga
+git gcm "omp und nvim update"
+git ga
+git gs
+cd /home/kamil/.dotfiles/
+git g
+git ga
+git gs
+git gcm "omp und nvim update"
+git gu
+nvim
+cd Documents
+lah
+cd HSRW/
+lah
+nvim TODO-Modern_Operationg_Systems
+nvim
+echo $PATH
+pwd
+cd .config/harper-ls/
+lah
+nvim dictionary.txt 
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://repo.charm.sh/apt/gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/charm.gpg
+echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" | sudo tee /etc/apt/sources.list.d/charm.list
+sudo apt update && sudo apt install glow
+cd Documents/HSRW/
+;ah
+lah
+nvim TODO-Modern_Operationg_Systems.md 
+nvim
+nvim TODO-Modern_Operationg_Systems.md 
+cd ../Cloud/Sciebo/7.Semester-WS25/
+nvim replace_space.sh
+chmod +x replace_space.sh 
+sh replace_space.sh 
+lah
+nvim replace_space.sh 
+sh replace_space.sh 
+lah
+cd S5_-_Data_Mining_und_Machine_Learning/Teil_1_-_Datamining/Uebung/
+lah
+sh replace_space.sh 
+lah
+nvim Uebung_01_eigene.md
+glow Uebung_01_eigene.md 
+CD Documents/Code/
+git gconf 
+quit
+cd Documents/Code/
+git gc https://gitlab.hsrw.eu/lv-webentwicklung/2024-25/vi/01-mannschaftskasse.git
+git clone https://gitlab.hsrw.eu/lv-webentwicklung/2024-25/vi/01-mannschaftskasse.git
+lah
+mv 01-mannschaftskasse/ Webentwicklung/
+lah
+cd Webentwicklung/
+lah
+git lconf 
+git config --local user.name "Kamil Znamirowski"
+git lconf 
+git gs
+sudo apt update
+apt search jetbrains
+cd /home/kamil/Downloads/
+untar jetbrains-toolbox-2.4.1.32573.tar.gz 
+tar -xvf jetbrains-toolbox-2.4.1.32573.tar.gz 
+;ah
+lah
+cd jetbrains-toolbox-2.4.1.32573/
+;ah
+lah
+jexec jetbrains-toolbox 
+.jetbrains-toolbox 
+chmod +x jetbrains-toolbox 
+./jetbrains-toolbox 
+sudo apt upgrade -y
+clear
+btop
+neofetch
+clear
+neofetch
+neovim
+nvim
+cd Documents/HSRW/Interdisciplinary_Porject/
+lah
+nvim Notes.md 
+cd Documents/HSRW/
+lah
+nvim TODO-Modern_Operationg_Systems.md 
+cd ../Cloud/Sciebo/5.Semester-WS24/S3\ -\ Verwaltungs-\ und\ IT-Recht/social\ media\ recht/
+lah
+cd HSRW-HA-IT-Recht/
+lah
+nvim main.tex 

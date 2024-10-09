@@ -145,6 +145,24 @@ return {
           },
         }
       end,
+      ['ltex'] = function()
+        lspconfig['ltex'].setup {
+          capabilities = capabilities,
+          settings = {
+            ltex = {
+              language = 'en-US', -- Primary language
+              additionalRules = {
+                motherTongue = 'de', -- Native language, change to your needs
+              },
+              -- You can also enable more language variants if needed
+              -- dictionary = {
+              --   ['en-US'] = { 'technical_terms.txt' }, -- Optional custom dictionary files
+              --   ['de'] = { 'french_terms.txt' }, -- Another custom dictionary
+              -- },
+            },
+          },
+        }
+      end,
     }
   end,
 }
