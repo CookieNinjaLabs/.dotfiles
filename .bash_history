@@ -1611,3 +1611,167 @@ lah
 cd HSRW-HA-IT-Recht/
 lah
 nvim main.tex 
+cdi
+lah
+nvim Vorschlag_Aufbau_Wiki.md 
+egrep -c '(vmx|svm)' /proc/cpuinfo
+$ grep -E --color '(vmx|svm)' /proc/cpuinfo
+grep -E --color '(vmx|svm)' /proc/cpuinfo
+kvm-ok
+sudo systemctl status libvirtd
+lah
+git clone https://gitlab.hsrw.eu/30175/smart-pa.git
+lah
+cd ~
+cd .dotfiles/
+lah
+nvim README.md 
+git gs
+nvim git ignore
+git gs
+nvim .gitignore
+git gs
+nvim .gitignore
+git gs
+git ga
+git gs
+git gcm "Readme update"
+git gu
+gi gs
+git gs
+nvim
+bashConf 
+bashSource
+bashConf 
+bashSource
+swift
+swift repl
+cd Downloads/
+tar -xzf swift-6.0.1-RELEASE-ubuntu24.04.tar.gz 
+lah
+cd swift-6.0.1-RELEASE-ubuntu24.04/
+lah
+ls usr
+apt search swift
+cd usr/bin/
+lah
+ls ~
+mkdir /home/kamil/swift
+cd ../..
+lah
+mv usr/ /home/kamil/swift/usr/
+cd ~
+ls swift/
+ls swift/usr/
+nvim
+cd HSRW
+lah
+cd ../Cloud/Sciebo/7.Semester-WS25/S5_-_Data_Mining_und_Machine_Learning/
+lah
+cd HSRW
+lah
+nvim TODO-Modern_Operationg_Systems.md 
+htop
+btop
+nvim TODO-Modern_Operationg_Systems.md 
+cd nvim
+nvim
+cd swift
+lah
+nvim tutorial.swift 
+cd HSRW
+lah
+cd Praxisbericht/Overleaf-last/
+unzip 4.\ Semester\ -\ Praxisbericht\ -\ IT.NRW.zip 
+nvim main.tex 
+cd nvim
+nivm
+nvim
+swift tutorial.swift 
+swift --version
+swift run
+cd ~
+lah
+cd swift/
+git clone https://github.com/apple/sourcekit-lsp.git
+cd sourcekit-lsp/
+swift package update
+lah
+cd ..
+lah
+swift build -Xcxx -I/home/kamil/swift/usr/lib/swift
+swift build -Xcxx -I./usr/lib/swift
+swift build -Xcxx -I /home/kamil/swift/usr/lib/swift
+swift build -Xcxx -I/home/kamil/swift/usr/lib/swift
+cd sourcekit-lsp/
+lah
+swift build -Xcxx -I/home/kamil/swift/usr/lib/swift
+sudo apt install build-essential
+sudo apt install libstdc++-dev
+clang --version
+sudo apt search libstdc++
+sudo apt install libstdc++-14-dev
+swift build -Xcxx -I/home/kamil/swift/usr/lib/swift
+swift build -Xcxx -I/usr/include/c++/14
+sudo apt install libsqlite3-dev
+swift build
+sudo apt install libdispatch-dev
+cd ..
+git clone https://github.com/apple/swift-corelibs-libdispatch
+cd swift-corelibs-libdispatch
+sudo apt install cmake ninja-build clang python3 uuid-dev libbsd-dev libcurl4-openssl-dev
+mkdir build
+cd build
+cmake .. -G Ninja
+sudo ninja install
+cd ..
+rm -rf build
+mkdir build
+cd build
+cmake .. -G Ninja -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+sudo ninja install
+ls /usr/local/include/dispatch/dispatch.h
+cd ../../sourcekit-lsp/
+swift build
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+lah
+$path
+$PATH
+bashConf 
+bashSource
+$PATH
+cd HSRW
+cd Praxisbericht/Overleaf-last/
+nvim main.tex 
+cd nvim
+nvim
+htop
+neofetch
+cd .config
+lah
+cd nvim/
+cd Swift
+cd vapor-leaf/
+lah
+nvim .prettierrc
+cd nvim
+nvim
+cd HSRW
+lah
+cd Betriebssysteme/
+lah
+nvim Notes.md 
+cd Documents
+lah
+cd Books/
+lah
+cd HSRW
+vi TODO-Modern_Operationg_Systems.md 
+glow TODO-Modern_Operationg_Systems.md 
+vi TODO-Modern_Operationg_Systems.md 
+glow TODO-Modern_Operationg_Systems.md 
+cd nvim
+vi
+apt search anki
+sudo apt install anki
+sudo apt remove anki

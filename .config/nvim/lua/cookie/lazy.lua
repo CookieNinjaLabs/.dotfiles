@@ -11,7 +11,32 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require('lazy').setup({ { import = 'cookie.plugins' }, { import = 'cookie.plugins.lsp' } }, {
+require('lazy').setup({
+  { import = 'cookie.plugins' },
+  { import = 'cookie.plugins.lsp' },
+  -- {
+  --   ui = {
+  --     cmd = '⌘',
+  --     config = '🛠',
+  --     event = '📅',
+  --     ft = '📂',
+  --     init = '⚙',
+  --     keys = '🗝',
+  --     plugin = '🔌',
+  --     runtime = '💻',
+  --     require = '🌙',
+  --     source = '📄',
+  --     start = '🚀',
+  --     task = '📌',
+  --     lazy = '💤 ',
+  --   },
+  -- },
+  {
+    'leaf_syntax',
+    dir = '~/.config/nvim/lua/leaf_syntax',
+    lazy = false,
+  },
+}, {
   checker = {
     enabled = true,
     notify = false,

@@ -54,3 +54,9 @@ vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
+
+-- textwrap at 80  cols
+vim.opt.tw = 80
+
+vim.opt.wildmenu = true
+vim.opt.wildmode = 'list:longest,list:full'

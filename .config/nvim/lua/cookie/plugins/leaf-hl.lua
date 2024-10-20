@@ -1,0 +1,59 @@
+return {
+  -- -- Plugin metadata
+  -- name = 'leaf-syntax-highlight',
+  -- description = 'Syntax highlighting and filetype detection for Leaf files',
+  -- version = '1.0.0',
+  --
+  -- -- Set this to load the plugin only when opening a .leaf file
+  -- ft = { 'leaf' },
+  --
+  -- config = function()
+  --   -- Filetype detection for .leaf files
+  --   vim.api.nvim_create_autocmd({ 'BufNewFile', 'BufRead' }, {
+  --     pattern = '*.leaf',
+  --     callback = function()
+  --       vim.bo.filetype = 'leaf.html'
+  --     end,
+  --   })
+  --
+  --   -- Syntax highlighting for Leaf
+  --   vim.api.nvim_create_augroup('LeafSyntax', { clear = true })
+  --   vim.api.nvim_create_autocmd('FileType', {
+  --     group = 'LeafSyntax',
+  --     pattern = 'leaf',
+  --     callback = function()
+  --       -- HTML syntax as a base
+  --       vim.cmd 'runtime! syntax/html.vim'
+  --
+  --       -- Unlet current syntax if it exists
+  --       if vim.b.current_syntax then
+  --         vim.b.current_syntax = nil
+  --       end
+  --
+  --       -- Define the Leaf syntax
+  --       vim.cmd [[
+  --         syn match leafFunc skipwhite nextgroup=leafParam containedin=@htmlLeafContainer
+  --               \ /\(#\+\([A-Za-z_][A-Za-z0-9-_:]*\)*\)\%((\)\@=/
+  --
+  --         syn match leafIdentifiers contained skipwhite
+  --               \ /[A-Za-z_][A-Za-z0-9-_:]*/
+  --
+  --         syn region leafString start=/"/ end=/"/ contains=leafFunc
+  --
+  --         syn region leafParam contained contains=leafIdentifiers,leafString,leafFunc
+  --               \ start="(" end=")" skip=","
+  --
+  --         syntax cluster htmlLeafContainer add=htmlHead,htmlTitle,htmlString,htmlH1,htmlH2,htmlH3,htmlH4,htmlH5,htmlH6,htmlLink,htmlBold,htmlUnderline,htmlItalic,htmlValue
+  --
+  --         " Highlighting
+  --         hi def link leafFunc Function
+  --         hi def link leafIdentifiers Type
+  --         hi def link leafString String
+  --       ]]
+  --
+  --       -- Set the current syntax
+  --       vim.b.current_syntax = 'leaf'
+  --     end,
+  --   })
+  -- end,
+}
