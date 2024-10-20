@@ -45,6 +45,7 @@
 .config/bluedevilglobalrc
 .config/discoverrc
 .config/dolphinrc
+.config/drkonqirc
 .config/emaildefaults
 .config/gtkrc
 .config/gtkrc-*
@@ -89,6 +90,7 @@
 .config/system*
 .config/Texmakerrc
 .config/TeXstudiorc
+.config/touchpadxlibinputrc
 .config/trashrc
 .config/Trolltech.conf
 .config/user-dirs*
