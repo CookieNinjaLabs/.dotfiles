@@ -31,6 +31,9 @@ return {
         'jinja_lsp',
         'lua_ls',
         'pyright',
+        'tailwindcss-language-server',
+        'typescript-language-server',
+        'vue-language-server',
       },
     }
 

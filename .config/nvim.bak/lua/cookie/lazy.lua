@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
   { import = 'cookie.plugins' },
   { import = 'cookie.plugins.lsp' },
+  { import = 'cookie.plugins.markdown' },
   -- {
   --   ui = {
   --     cmd = '⌘',

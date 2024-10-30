@@ -109,6 +109,36 @@ return {
         }
       end,
 
+      -- -- Typescript-ls server configuration
+      -- ['typescript-language-server'] = function()
+      --   lspconfig.svelte.setup {
+      --     capabilities = capabilities,
+      --     on_attach = function(client, bufnr)
+      --       vim.api.nvim_create_autocmd('BufWritePost', {
+      --         pattern = { '*.js', '*.ts' },
+      --         callback = function(ctx)
+      --           client.notify('$/onDidChangeTsOrJsFile', { uri = ctx.match })
+      --         end,
+      --       })
+      --     end,
+      --   }
+      -- end,
+      --
+      -- -- Vue-ls server configuration
+      -- ['vue-language-server'] = function()
+      --   lspconfig.svelte.setup {
+      --     capabilities = capabilities,
+      --     on_attach = function(client, bufnr)
+      --       vim.api.nvim_create_autocmd('BufWritePost', {
+      --         pattern = { '*.vue' },
+      --         callback = function(ctx)
+      --           client.notify('$/onDidChangeTsOrJsFile', { uri = ctx.match })
+      --         end,
+      --       })
+      --     end,
+      --   }
+      -- end,
+
       -- GraphQL server configuration
       ['graphql'] = function()
         lspconfig.graphql.setup {
@@ -121,7 +151,7 @@ return {
       ['emmet_ls'] = function()
         lspconfig.emmet_ls.setup {
           capabilities = capabilities,
-          filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less', 'svelte', 'leaf' },
+          filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less', 'svelte', 'leaf', 'vue' },
         }
       end,
 

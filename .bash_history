@@ -1775,3 +1775,161 @@ vi
 apt search anki
 sudo apt install anki
 sudo apt remove anki
+sudo corntab
+sudo crontab
+sudo crontab -e
+sudo apt update -y && sudo apt upgrade -y
+sudo flatpak update -y
+cd Swift
+cd vapor-leaf/
+lah
+nvim
+nvim Resources/Views/index.leaf 
+cd HSRW
+lah
+nvim TODO-Modern_Operationg_Systems.md 
+swift run
+cd ,dorfiles
+cd /home/kamil/.dotfiles/
+git gs
+git ga
+git gs
+git gcm "Added Swift and leaf support to nvim"
+nvim .gitignore 
+git gs
+git ga
+git gcm "Update gitignore"
+git gs
+git gu
+cd /
+lah
+shutdown -r now
+cd HSRW
+vi TODO-Modern_Operationg_Systems.md 
+man echo
+cd Sciebo
+cd ../Cloud/Sciebo/5.Semester-WS24/man read
+man read
+vi test.md
+glow test.md 
+find ./~
+swift run
+cd Swift
+ls
+cd vapor-leaf/
+nvim
+cd nvim
+cd lua/cookie/plugins/
+ls
+rm lspsaga.lua 
+nvim
+sudo apt update && sudo apt upgrade -y
+cd nvim
+cd lua/cookie/plugins/
+ls
+vi lspsaga.lua
+cd Code
+cd ..
+ls
+cd Webentwicklung/
+ls
+mkdir Test-Nuxt
+cd Test-Nuxt/
+npx nuxi@latest init testIT
+git gs
+ls
+cd testIT/
+ls
+vi
+cd ..
+nvim
+cd nvim
+nvim
+cd nivm
+cd nvim
+ls
+nvim init.lua 
+oh-my-posh upgrade
+cd Documents/Code/R/DM-VL/
+vi testat_aufgabe.md
+exit
+cd Code
+cd R/DM-VL/
+vi testat_aufgabe.md 
+exit
+cd Code
+cd R/DM-VL/
+vi testat_aufgabe.md 
+cd R
+cdi
+cd R/DM-VL/
+lah
+glow testat_aufgabe.md 
+nvim
+cd nvim
+nvim
+cd Code
+cd Webentwicklung/
+lah
+cd Test-Nuxt/
+lah
+cd vueTestCDN/
+lah
+nvim index.html
+sudo apt install yarn -y
+shutdown -r now
+cd Code
+lah
+cd learn_to_code/
+lah 
+cd python/
+lah
+cd codewars/7kyu/
+lah
+nvim sum_of_the_first_nth_term_of_series.py 
+sudo apt install python-pyright
+nvim sum_of_the_first_nth_term_of_series.py 
+sudo npm install -g pyright
+sudo apt install nodejs npm -y
+sudo npm install -g pyright
+nvim sum_of_the_first_nth_term_of_series.py 
+nvim
+pip install icecream
+nvim
+nvim //version
+nvim --version
+cd .dotfiles/
+cd .config/
+lah
+mv nvim/ nvim.bak
+lah
+rm -rf ~/.local/share/nvim/
+cd ~
+git clone http://github.com/NvChad/NvChad ~/.dotfiles/.config/nvim --depth 1
+cd .dotfiles/
+stow
+stow -n
+cd nvim
+nvim
+cd ..
+rm -r nvim
+rm -r nvim/
+git clone https://github.com/NvChad/starter ~/.dotfiles/.config/nvim && nvim
+nvim
+cd nvim
+nvim
+cd python
+cd codewars/7kyu/
+nvim sum_of_the_first_nth_term_of_series.py 
+cdi
+git clone https://gitlab.hsrw.eu/lv-webentwicklung/2024-25/vi/01-mannschaftskasse.git
+lah
+git gs
+git checkout frontend
+git checkout -b frontend
+cd 01-mannschaftskasse/
+git status
+git checkout frontend
+cd nvim
+nvim
+clear
