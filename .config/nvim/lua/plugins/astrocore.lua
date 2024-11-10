@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
@@ -46,6 +46,10 @@ return {
       n = {
         -- second key is the lefthand side of the map
 
+        -- Increment/Decrement numbers
+        ["<Leader>+"] = { "<C-a>", desc = "Increment number" },
+        ["<Leader>-"] = { "<C-x>", desc = "Decrement number" },
+
         -- navigate buffer tabs
         ["<leader>bn"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
         ["<leader>bp"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
@@ -60,9 +64,14 @@ return {
           desc = "Close buffer from tabline",
         },
 
+        -- preview mappings
+        -- ["<Leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
+        ["<Leader>vm"] = { "<cmd>Glow<cr>", desc = "Markdown-preview with glow" },
+
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
+        ["<Leader>v"] = { desc = "Preview" },
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
