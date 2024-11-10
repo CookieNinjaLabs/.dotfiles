@@ -1,144 +1,3 @@
-sudo apt update | apt upgrade
-sudo apt update
-sudo apt upgrade
-sudo apt update
-sudo apt install nala neovim btop ctop diff-so-fancy eza fzf nano navi playerctl scc thefuck tlrc vim zoxide docker docker-compose git go jasp-desktop libvirt postman python3 qemu
-sudo nala search ctop
-sudo apt install nala
-btop
-sudo nala install btop
-sudo nala install ctop
-sudo nala search ctop
-sudo nala search diff-so-fancy
-sudo nala install eza
-sudo nala install -y fzf
-sudo nala install -y nano navi
-sudo nala install -y neofetch neovim
-python --version
-python3 --version
-sudo nala install -y playerctl
-sudo nala install -y scc
-snap install scc
-sudo nala install -y thefuck
-sudo nala install -y tlrc
-snap install tlrc
-sudo nala install -y vim
-sudo nala install -y zoxide
-sudo nala install -y go
-flatpak install flathub org.jaspstats.JASP
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.jaspstats.JASP
-sudo nala install -y postman
-flatpak install flathub com.getpostman.Postman
-sudo nala install -y gcc
-sudo nala install -y gnumake gparted jq
-sudo nala install -y gparted
-sudo nala install -y gnumake
-sudo nala install -y jq
-sudo nala install -y keepassxc
-sudo nala install -y openssl owncloud-client
-sudo nala install -y ripgrep unzip usbutils wget
-sudo nala install -y zotero
-flatpak run org.jaspstats.JASP
-flatpak install flathub org.zotero.Zotero
-cd Documents/Code/
-ls
-cd Wir\ lernen/
-ls
-git clone https://gitlab.hsrw.eu/31592/statistik-assignements.git
-pip install pyreadstat matplotlib seaborn
-python3 -m pip install pyreadstat matplotlib seaborn
-python3 pip install pyreadstat matplotlib seaborn
-py -m pip install pyreadstat matplotlib seaborn
-pip --version
-sudo nala install tmux
-tmux
-flatpak run org.jaspstats.JASP
-sudo nala search notion
-sudo nala install notion
-notion
-ls
-cd statistik-assignements/
-ls
-git status
-git add .
-git commit "Hallo Mellie"
-git commit -m "Hallo Mellie"
-git config --global user.email "kamil@kt-z.de"
-git config --global user.name "Kamil"
-git status
-git push
-git status
-git checkout -b "kamil seins"
-git checkout -b "kamil-seins"
-git status
-git log --graph
-git status
-git add .
-git commit -m "Hallo Mellie, ich habe mehr Punkte in 20 eingeführt"
-git push
-git push --set-upstream origin kamil-seins
-git log --graph
-sudo nala install wifi-radar
-sudo apt install wifi-radar
-sudo nala install linssid
-linssid
-sudo linssid
-git checkout mellies-branch 
-sudo nala install discord
-git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
-~/.config/emacs/bin/doom install
-sudo nala install emacs
-git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
-~/.config/emacs/bin/doom install
-emacs
-sudo nala install pandoc
-emacs
-emacs -nw
-nvim .bashrc 
-doom
-source .bashrc 
-doom
-jasp
-nvim .bashrc 
-jasp
-nvim .bashrc 
-source .bashrc 
-jasp
-tmux
-lah
-mkdir .config/wezterm
-touch .config/wezterm/wezterm.lua
-nvim .config/wezterm/wezterm.lua 
-source .config/wezterm/wezterm.lua 
-nvim .config/wezterm/wezterm.lua 
-source .config/wezterm/wezterm.lua 
-nvim .config/wezterm/wezterm.lua 
-mkdir .config/starship
-touch .config/starship/starship.toml
-nvim .config/wezterm/wezterm.lua 
-nvim .config/starship/starship.toml
-lah
-tmux
-nvim .config/wezterm/wezterm.lua 
-snap remove starship
-vim bash.rc
-vim .bashrc 
-source .bashrc 
-exit
-sudo nala curl -s https://ohmyposh.dev/install.sh | bash -s
-sudo nala install curl
-curl -s https://ohmyposh.dev/install.sh | bash -s
-nvim .bashrc
-source .bashrc 
-vi .bashrc 
-postman
-source .config/.bash_aliases 
-postman
-doom
-sudo nala install starship
-sudo snap install starship --edge
-nvim .bashrc 
 wezterm
 mkdir .config/ohmyposh/
 vi .config/ohmyposh/tokyonightstorm.json
@@ -1933,3 +1792,213 @@ git checkout frontend
 cd nvim
 nvim
 clear
+cd Webentwicklung
+cd 01-mannschaftskasse/
+lah
+nvim
+cd ..
+ls
+cd Test-Nuxt/
+ls
+cd vueTestCDN/
+nvim index.html 
+cd .dotfiles
+git gs
+ls
+lah
+nvim .gitignore 
+git ga
+git gs
+git gcm "neovim revamp"
+git gu
+git gs
+cd nvim
+nvim
+exit
+nvim index.html 
+cd ../../vueschool/foundaitions/
+mkdir
+mkdir css
+nvim
+cd Webentwicklung
+ls
+cd vueschool/foundaitions/
+nvim index.html 
+nvim js/app.js 
+cd nvim
+nvim
+npm install axios
+cd Webentwicklung
+cd vueschool/
+ls
+npm i @vue/cli
+npm i @vue/cli --global
+vue -V
+cd 03-single_file-components/
+vue create awesome-app
+lah
+cd awesome-app/
+lah
+npm run serve
+npm i
+npm run serve
+cd ..
+vue create awesome-app
+npm run serve
+cd awesome-app/
+npm run serve
+[200~npm install --global prettier
+~npm install --global prettier
+npm install --global prettier
+clear
+npm i -D sass-loader@^
+npm i -D sass-loader@^10
+npm i -D sass-loader
+npm install -D sass-loader sass
+npm install sass-loader sass webpack --save-dev
+npm install -D sass-loader sass --legacy-peer-deps
+npm audit fix --force
+npm install @vue/eslint-config-standard@latest eslint-plugin-vue@latest --save-dev
+npm install -D sass-loader sass --legacy-peer-deps
+npm install -D sass-loader sass
+npm install -D sass-loader
+npm install -D sass-loader sass --legacy-peer-deps
+npm install -g npm@latest
+nvm install 18
+nvm use 18
+npm install -D sass-loader sass --legacy-peer-deps
+npm i -g @vue/cli
+npm i --global @vue/cli
+npm install -g @vue/cli
+source ~/.bashrc 
+pwd
+source /home/kamil/.bashrc 
+getcwd()
+nvim /home/kamil/.bashrc 
+exit
+npx shadcn-vue@latest init
+npx nuxi add page movies
+npx nuxi add page moviclear
+clear
+neofetch
+npx nuxi@latest module add ui
+npx nuxi module add icon
+npx nuxi@latest module add tailwindcss
+npm install -D typescript
+npx nuxi@latest module add @nuxtjs/tailwindcss
+npx nuxi@latest module add shadcn-nuxt
+clear
+npm run dev
+npm i
+npm run
+npm run dev
+vite: {
+npm run dev
+npx nuxi add page
+npx nuxi add page index
+npm run dev
+cd HSRW
+ls
+ocular TODO-Modern_Operationg_Systems.md 
+okular TODO-Modern_Operationg_Systems.md 
+nvim TODO-Modern_Operationg_Systems.md 
+cd DM-VL
+ls
+okular 6_Clustering.pdf 
+sudo touch /etc/udev/rules.d/50-zsa.rules
+sudo nvim /etc/udev/rules.d/50-zsa.rules
+sudo vim /etc/udev/rules.d/50-zsa.rules
+sudo groupadd plugdev
+sudo usermod -aG plugdev $USER
+sudo usermod -aG plugdev $SUDO_USER
+sudo usermod -aG plugdev kamil
+cd Webentwicklung
+ls
+cd vueschool/
+cd 03-single_file-components/awesome-app/
+npm install -g @vue/cli
+npm install sass-loader sass webpack --save-dev
+npm run serve
+cd ../../../01-mannschaftskasse-working/
+ls
+lah
+nvim
+clear
+nvim
+npx nuxi@latest module add @nuxt/image
+neofetch
+cd DM-VL
+ls
+nvim testat_aufgabe.md 
+cd Webentwicklung
+cd 01-mannschaftskasse
+ls
+npm run dev
+npm run
+npm i
+npm run dev
+cd ../01-mannschaftskasse-working/
+npm run dev
+cdi Webentwicklung
+cd 01-mannschaftskasse-working/
+ls
+vue add vuetify
+npm i -D vuetify vite-plugin-vuetify
+npm i @mdi/font
+neofetch
+bashConf 
+bashSource
+clear
+neofetch
+cd HSRW
+cd Betriebssysteme/VM/Shell/
+chmod +x u4_9_sudo_to_terminal.sh 
+chmod +x u4_9_sudo_to_terminal_alt.sh 
+./u4_9_sudo_to_terminal_alt.sh 
+./u4_9_sudo_to_terminal.sh 
+cdi
+./u4_9_sudo_to_terminal.sh 
+./u4_9_sudo_to_terminal_alt.sh 
+sudo apt update && apt upgrade -y
+sudo apt upgrade -y
+nvim
+cd .dotfiles/.config/
+mv nvim nvim.chad.bak
+ls
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit -D -t /usr/local/bin/
+lazygit --version
+add-apt-repository ppa:daniel-milde/gdu
+apt-get update
+apt-get install gdu
+sudo apt-get install gdu
+cd --
+cd -
+curl -LO https://github.com/ClementTsang/bottom/releases/download/0.10.2/bottom_0.10.2-1_amd64.deb
+sudo dpkg -i bottom_0.10.2-1_amd64.deb
+mv ~/.local/share/nvim ~/.local/share/nvim.bak
+mv ~/.local/state/nvim ~/.local/state/nvim.bak
+mv ~/.cache/nvim ~/.cache/nvim.bak
+git clone --depth 1 https://github.com/AstroNvim/template ~/.dotfiles/.config/nvim
+rm -rf ~/.dotfiles/.config/nvim/.git
+nvim
+cd .dotfiles/.config/
+nvim
+cd nvim
+nvim
+npm install tree-sitter-cli
+nvim
+source ~/.bashrc 
+nvim
+cargo install --locked tree-sitter-cli
+exit
+uptime
+htop
+btop
+lscpu
+cdi Swift
+ls
+nvim tutorial.swift 
+exit
